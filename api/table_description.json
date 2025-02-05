@@ -1,0 +1,84 @@
+{
+    "columns": [
+      {
+        "column_name": "CustomerID",
+        "data_type":"Integer",
+        "description": "Unique identifier for each customer"
+      },
+      {
+        "column_name": "Age",
+        "data_type":"Integer",
+        "description": "Age of the customer"
+      },
+      {
+        "column_name": "Gender",
+        "data_type":"Text",
+        "description": "Gender of the customer"
+      },
+      {
+        "column_name": "LoyaltyMember",
+        "data_type":"Text",
+        "description": "(Yes/No) (Values change by time, so pay attention to who cancelled and who signed up)"
+      },
+      {
+        "column_name": "ProductType",
+        "data_type":"Text",
+        "description": "Type of electronic product sold (e.g., Smartphone, Laptop, Tablet). This can also be referred as product"
+      },
+      {
+        "column_name": "SKU",
+        "data_type":"Text",
+        "description": "a unique code for each product"
+      },
+      {
+        "column_name": "Rating",
+        "data_type":"Integer",
+        "description": "Customer rating of the product (1-5 stars) (Should have no Null Ratings)"
+      },
+      {
+        "column_name": "OrderStatus",
+        "data_type":"Text",
+        "description": "Status of the order (e.g., Completed, Cancelled)"
+      },
+      {
+        "column_name": "PaymentMethod",
+        "data_type":"Text",
+        "description": "Method used for payment (e.g., Cash, Credit Card, Paypal)"
+      },
+      {
+        "column_name": "TotalPrice",
+        "data_type":"Numeric",
+        "description": "Total price of the transaction (numeric)"
+      },
+      {
+        "column_name": "UnitPrice",
+        "data_type":"Numeric",
+        "description": "Price per unit of the product (numeric)"
+      },
+      {
+        "column_name": "Quantity",
+        "data_type":"Integer",
+        "description": "Number of units purchased (numeric)"
+      },
+      {
+        "column_name": "PurchaseDate",
+        "data_type":"Text",
+        "description": "Date of the purchase (format: YYYY-MM-DD)"
+      },
+      {
+        "column_name": "ShippingType",
+        "data_type":"Text",
+        "description": "Type of shipping chosen (e.g., Standard, Overnight, Express)"
+      },
+      {
+        "column_name": "Add-onsPurchased",
+        "data_type":"Text",
+        "description": "List of any additional items purchased (e.g., Accessories, Extended Warranty)"
+      },
+      {
+        "column_name": "Add-onTotal",
+        "data_type":"Numeric",
+        "description": "Total price of add-ons purchased (numeric)"
+      }
+    ]
+  }
